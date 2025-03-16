@@ -1,5 +1,5 @@
 public class C1_LargestNumber {
-    int[] a;
+    // int[] a;
 
     public int display(int[] arr) {
         int n = arr.length;
@@ -13,9 +13,9 @@ public class C1_LargestNumber {
     }
 
     public static void main(String[] args) {
-        C1_LargestNumber newnumber = new C1_LargestNumber();
         int[] numbers = { 3, 3, 1, 12, 2, 1 };
 
+        C1_LargestNumber newnumber = new C1_LargestNumber();
         int result = newnumber.display(numbers);
 
         System.out.println(result);
